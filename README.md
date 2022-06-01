@@ -5,9 +5,9 @@ Performing Kickstarter data analysis to discover trends
 
 The most successful campaigns were launched in the summer, with May being the month with the highest amount of successful campaigns. Campaigns launched between November and January were the least successful.
 
-!<img width="338" alt="Table outcome based on launch dates" src="https://user-images.githubusercontent.com/105942622/171447079-b446f4ca-40e8-403a-b5f1-5e7b84889735.png">
+<img width="338" alt="Table outcome based on launch dates" src="https://user-images.githubusercontent.com/105942622/171447079-b446f4ca-40e8-403a-b5f1-5e7b84889735.png">
 
-!<img width="238" alt="Outcomes Based on Launch Date" src="https://user-images.githubusercontent.com/105942622/171447098-0131d7a4-ff57-4217-b7b5-a07f63d7ee9d.png">
+<img width="238" alt="Outcomes Based on Launch Date" src="https://user-images.githubusercontent.com/105942622/171447098-0131d7a4-ff57-4217-b7b5-a07f63d7ee9d.png">
 
 **2. US Kickstarter Campaign Outcomes for Parent Category**
 
@@ -28,7 +28,7 @@ In the United States there were 671 kickstarters launched for plays of which 412
 
 <img width="239" alt="Great Britain Kickstarter Outcomes Theater - Plays" src="https://user-images.githubusercontent.com/105942622/171449699-e3fb507e-bb21-4384-b25c-240294b88a5a.png">
 
-**4. Descriptive Statistics for Successful and Failed Theater Kickstarter Play Campaigns
+**4. Descriptive Statistics for Successful and Failed Theater Kickstarter Play Campaigns**
 
 The table below breaks down the descriptive statistics for the successful and failed kickstarter play campaigns. The Box Plot graph shows a graphical representation of this data. 
 
