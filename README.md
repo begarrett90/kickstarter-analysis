@@ -1,39 +1,43 @@
-# An Analysis of Kickstarter Campaigns
-Performing Kickstarter data analysis to discover trends
+# Kickstarting with Excel
 
-**1. Theater Kickstarter Campaign Outcomes Based on Months**
+## Overview of Project
 
-The most successful campaigns were launched in the summer, with May being the month with the highest amount of successful campaigns. Campaigns launched between November and January were the least successful.
+### Purpose & Background
+ 
+*Fever* was a play funded by a Kickstarter campaign in 2016 that was short of meeting its goal. It’s creator, Louise, wants to see how her campaign compares to other similar Kickstarter campaigns. The purpose of this analysis was to compare how different Kickstarter campaigns for plays performed in comparison to the play *Fever* based on their launch dates and funding goals.  
 
-<img width="338" alt="Table outcome based on launch dates" src="https://user-images.githubusercontent.com/105942622/171447079-b446f4ca-40e8-403a-b5f1-5e7b84889735.png">
+## Analysis and Challenges
 
-<img width="238" alt="Outcomes Based on Launch Date" src="https://user-images.githubusercontent.com/105942622/171447098-0131d7a4-ff57-4217-b7b5-a07f63d7ee9d.png">
+### Analysis of Outcomes Based on Launch Date
+There were a higher number of successful campaigns that were launched in the summer than campaigns in the fall or winter. More specifically, the top 3 successful months to start a campaign were: 1. May, 2. June, 3. July. Fall and winter months (October to January) had the highest number of failed campaigns relative to the number of successful campaigns. January had the highest number of canceled campaigns. 
 
-**2. US Kickstarter Campaign Outcomes for Parent Category**
-
-In the United States there were 3038 Kickstarter Campaigns: 257 were cancelled, 1,097 failed, 33 were live, and 1,651 were successful. 
-
-<img width="296" alt="Parent Category Outcomes" src="https://user-images.githubusercontent.com/105942622/171452326-e19349ab-6d65-4cce-8b0a-0c6165074d3d.png">
-
-Further breakdown on Parent Category to show outcomes for Theater shows that there were 912 campaigns, 26 were cancelled, 349 failed, 12 were live, and 525 were successful.
-
-<img width="295" alt="Parent Category Outcomes - Theater" src="https://user-images.githubusercontent.com/105942622/171452854-10100c14-22ee-4392-9464-47e26b7ce366.png">
+![Theater_Outcomes_vs_Launch](https://user-images.githubusercontent.com/105942622/171866934-bd073185-bc0b-4d1f-be1c-bfba6f243834.png)
 
 
-**3. US & GB Kickstarter Campaign Outcomes for Subcategory theater - plays**
+### Analysis of Outcomes Based on Goals
+Campaigns with a smaller goal were more likely to meet their goal. Campaigns with a goal less than $1000 had the highest chance of being successful (76%) and lowest chance of failure (24%) followed by those with a goal of $1,000 to $4,999 (73% chance of success and 27% chance of failure). In general, as the goal of the campaigns increase the chances of success decrease (blue line) and the chances of failure increase (orange line). 
 
-In the United States there were 671 kickstarters launched for plays of which 412 were successful, 9 were live, and 250 failed. In Great Britain there were 314 kickstarters launched, of which 238 were successful, 6 were live, and 70 failed.
+![Outcomes_vs_Goals](https://user-images.githubusercontent.com/105942622/171866972-a6c7ef10-9781-4b45-bdc8-019eeba7cec3.png)
 
-<img width="239" alt="United States Kickstarter Outcomes Theater - Plays" src="https://user-images.githubusercontent.com/105942622/171449678-67853c16-6883-48ab-a80c-c8b11c550e0a.png">
 
-<img width="239" alt="Great Britain Kickstarter Outcomes Theater - Plays" src="https://user-images.githubusercontent.com/105942622/171449699-e3fb507e-bb21-4384-b25c-240294b88a5a.png">
+### Challenges and Difficulties Encountered
+There were no challenges or difficulties encountered with this analysis. Challenges and difficulties that could be experienced include duplicate entries, spelling mistakes within the data that lead to some data not being included in certain analyses, or incomplete data. 
 
-**4. Descriptive Statistics for Successful and Failed Theater Kickstarter Play Campaigns**
 
-The table below breaks down the descriptive statistics for the successful and failed kickstarter play campaigns. The Box Plot graph shows a graphical representation of this data. 
+## Results
 
-<img width="286" alt="US Descriptive Statistics" src="https://user-images.githubusercontent.com/105942622/171453386-0509b073-0a51-4f26-92f8-311f10baaea2.png">
+### What are two conclusions you can draw about the Outcomes based on Launch Date?
 
-**Conclusion**
+1. The most successful campaigns are launched in the summer months, primarily May. 
+2. The least successful time to launch a campaign is in the fall/winter between October and December.
 
-The data shows that there were some failed kickstarters with really high goals. In order to launch a successful campaign the campaign should be launched in the summer months, preferably May. Campaigns that lasted a shorter amount of time, around 1 month, tended to be the most successful. The goal amount for the kickstarter should be $3,000. 
+### What can you conclude about the Outcomes based on Goals?
+Campaigns with a goal of $5,000 or less have the highest chance of success and lowest change of failure.  As the goal of the campaigns increase the likelihood of success decreases. 
+
+### What are some limitations of this dataset?
+
+A limitation of this dataset is that there are more campaigns to analyze with smaller campaign goals than higher campaign goals. The less data available the less accurate the information is for those higher numbers. This can be seen in the data where campaigns with a goal between $35,000 and $45,000 are 67% successful, which is not consistent with the overall trend that is seen that as the goal increases the likelihood and success decreases. 
+
+### What are some other possible tables and/or graphs that we could create?
+
+A graph and table depicting the percentage of successful and failed campaigns based on launch date. This would further breakdown the likelihood of a successful campaign based on launch date. Less campaigns are launched in the fall/winter months as such there is naturally a smaller number of successful campaigns; a percentage breakdown could provide more insight.
